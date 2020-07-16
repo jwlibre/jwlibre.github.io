@@ -21,12 +21,9 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">home</a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">about</a>
     <a href="#resume" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">resumé</a>
     <a href="#programming" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">programming</a>
-    <a href="#music" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">music</a>
-    <a href="#3dart" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">3d art</a>
-    <a href="#blog" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">blog</a>
+    <a href="#3dart" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">digital art</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">contact</a>
 
     <!--
@@ -39,18 +36,16 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
     </div>
 -->
     <!--<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
+    <div class="w3-bar-item w3-right w3-padding-large">Jeremy Libre</div>
 
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top" style="margin-top:46px">
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">about</a>
   <a href="#resume" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">resumé</a>
   <a href="#programming" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">programming</a>
-  <a href="#music" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">music</a>
-  <a href="#3dart" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">3d art</a>
-  <a href="#blog" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">blog</a>
+  <a href="#3dart" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">digital art</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">contact</a>
 </div>
 
@@ -58,12 +53,9 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
   <!-- Automatic Slideshow Images -->
-  <div class="mySlides w3-display-container w3-center w3-black">
-    <img src="img/IMG_1089.jpeg" class="img-fluid" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32">
-      <img src="img/profile2020_3.JPG" style="width:20%" class="rounded-circle">
-    </div>
-  </div>
+  <video style="width:100%" autoplay muted loop>
+    <source src="vid/orbits.mp4" type="video/mp4">
+    </video>
 
   <div class="w3-container w3-padding-16 w3-center w3-opacity w3-xxxlarge">
   <a href="https://www.linkedin.com/in/jeremy-libre-8a682a84/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
@@ -72,84 +64,177 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
   <a href="https://www.youtube.com/channel/UCW_5ddohsesc1nyMqU73Htg" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
   </div>
 
-
   <!-- About Section -->
   <div class="w3-container w3-content w3-center" style="max-width:800px" id="about">
 
-    <strong class="w3-center" style="font-size: 20px">I am a programmer, physics graduate, musician and all-round tech enthusiast.</strong><br>
+    <strong class="w3-center" style="font-size: 18px">I am a programmer, physics graduate, digital artist, and all-round tech enthusiast.</strong><br>
     <p class="w3-center">
-      This is where a better description of me will go. It will contain a bit more about my background, my interests, my skills, my aspirations and my values.<br>
-      It can even go over several lines, where I discuss in great detail all the random stuff I love and what I'd like to do next.<br>
+      I am passionate about technology and its potential to drive positive changes in society; I believe that through the conscientous development of technology we can create a fairer and more sustainable society for all.<br><br>
+      I have a passion for creative, technical problem-solving and process automation, and am actively seeking a role which will allow me to apply my skills in programming, computing and data analysis to effect positive changes in society.<br>
     </p>
   </div>
 
   <!-- Resume section -->
   <div class="w3-white w3-container w3-content w3-center" style="max-width:1000px; vertical-align:middle" id="resume">
-   <h2 class="w3-wide w3-padding-32">experience</h2>
+   <h2 class="w3-wide" style="padding-top:32px; padding-bottom:16px">resumé</h2>
+   <h3 class="w3-wide" style="padding-top:16px; padding-bottom:16px">- professional experience -</h3>
 
      <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
-       <div class="w3-third">
-           <img src="img/logos/secall.png" alt="Security Alliance" style="width:25%; float:left"></img>
+       <div class="w3-half">
            <p>
-             <br>
-             <strong style="font-size: 20px">Security Alliance Ltd.</strong>
+             <strong style="font-size: 25px">Software Developer</strong><br>
+             <strong style="font-size: 18px">Security Alliance Ltd.</strong>
            </p>
        </div>
-        <div class="w3-twothird">
-          <p>
-            My role involved toolset development leveraging Bash and Python to automate processes supporting intelligence gathering and system integration. I played a leading role in developing the internal software development capability at the company. Technologies included Python, Bash, Git, Docker, MySQL, AWS, APIs.
+        <div class="w3-half w3-left">
+          <p class="w3-left" style="font-size: 17px">
+            Toolset development in Bash and Python.<br>
+            Process automation supporting intelligence gathering and system integration.<br>
           </p>
         </div>
       </div>
 
       <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
-        <div class="w3-third">
-            <img src="img/logos/senseon.jpeg" alt="Senseon" style="width:25%; float:left"></img>
+        <div class="w3-half">
             <p>
-              <br>
-              <strong style="font-size: 28px">Senseon</strong>
+              <strong style="font-size: 25px">Software Developer</strong><br>
+              <strong style="font-size: 18px">Senseon</strong>
             </p>
         </div>
-         <div class="w3-twothird">
-           <p>
-             I worked as a backend developer for a cyber security startup developing an AI-led threat detection solution.
-             Through attending seminars led by the data science team and assisting with literature reviews, developed an understanding of anomaly detection methodologies and their applications to cyber security.
+         <div class="w3-half">
+           <p style="font-size: 17px">
+             Backend development incorporating Python and MySQL.
            </p>
          </div>
        </div>
 
        <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
-         <div class="w3-third">
-             <img src="img/logos/steer.jpeg" alt="Steer" style="width:25%; float:left"></img>
+         <div class="w3-half">
              <p>
-               <br>
-               <strong style="font-size: 28px">Steer</strong>
+               <strong style="font-size: 25px">Consultant</strong><br>
+               <strong style="font-size: 18px">Steer</strong>
              </p>
          </div>
-          <div class="w3-twothird">
-            <p>
-I worked as a Consultant in Rail Advisory, developing R programs to process and analyse large volumes of data. I played an active role in numerous data-driven projects. Through developing bespoke data processing tools for clients I have gained expertise in Microsoft Excel and Visual Basic. I also contributed to the development of business cases and written reports.
-I delivered projects for a broad range of clients, including the Department for Transport, Transport for London, Transport for the North, Highways England, and the Rail Safety and Standards Board.
+          <div class="w3-half">
+            <p style="font-size: 17px">
+              Large-scale data analysis, process automation using R and Python.<br>
+              Backend and frontend Python development using Tkinter, Matplotlib, pandas.
             </p>
           </div>
         </div>
 
 
         <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
-          <div class="w3-third">
-              <img src="img/logos/ibm.png" alt="IBM" style="width:25%; float:left"></img>
+          <div class="w3-half">
               <p>
-                <br>
-                <strong style="font-size: 28px">IBM</strong>
+                <strong style="font-size: 25px">Graduate Software Developer</strong><br>
+                <strong style="font-size: 18px">IBM</strong>
               </p>
           </div>
-           <div class="w3-twothird">
-             <p>
-              Responsibilities in diagnosing problems and implementing fixes in C source code and bash scripts, working directly with both software and hardware, with a Linux-based system.
-              Practical experience of software development tools and practices in an agile environment.
+           <div class="w3-half">
+             <p style="font-size: 17px">
+              Diagnosing problems and implementing fixes in C source code and bash scripts.
              </p>
            </div>
          </div>
+
+    <h3 class="w3-wide" style="padding-top:16px; padding-bottom:16px">- education -</h3>
+    <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
+      <div class="w3-half">
+          <p>
+            <strong style="font-size: 25px">Master of Physics</strong><br>
+            <strong style="font-size: 18px">University of Oxford (2010 - 2014)</strong>
+          </p>
+      </div>
+       <div class="w3-half">
+         <p style="font-size: 17px">
+          Specialisation in Astrophysics and Physics of Atmospheres and Oceans
+         </p>
+       </div>
+     </div>
+
+     <h3 class="w3-wide" style="padding-top:16px; padding-bottom:16px">- skills -</h3>
+
+       <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
+         <div class="w3-half">
+             <p>
+               <strong style="font-size: 25px">Programming Languages</strong><br>
+             </p>
+         </div>
+          <div class="w3-half">
+            <p style="font-size: 20px">
+              Python, R, Bash, Visual Basic
+            </p>
+          </div>
+        </div>
+
+        <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
+          <div class="w3-half">
+              <p>
+                <strong style="font-size: 25px">Tools</strong><br>
+              </p>
+          </div>
+           <div class="w3-half">
+             <p style="font-size: 20px">
+               Docker, Git, GitHub
+             </p>
+           </div>
+         </div>
+
+         <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
+           <div class="w3-half">
+               <p>
+                 <strong style="font-size: 25px">Libraries and Frameworks</strong><br>
+               </p>
+           </div>
+            <div class="w3-half">
+              <p style="font-size: 20px">
+                pandas, NumPy, scikit-learn, matplotlib, Flask
+              </p>
+            </div>
+          </div>
+
+          <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
+            <div class="w3-half">
+                <p>
+                  <strong style="font-size: 25px">Data Analysis</strong><br>
+                </p>
+            </div>
+             <div class="w3-half">
+               <p style="font-size: 20px">
+                 Python, R, Excel, MySQL
+               </p>
+             </div>
+           </div>
+
+           <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
+             <div class="w3-half">
+                 <p>
+                   <strong style="font-size: 25px">Software</strong><br>
+                 </p>
+             </div>
+              <div class="w3-half">
+                <p style="font-size: 20px">
+                  Mac OSX, Linux (Mint, Ubuntu and Kali), Windows
+                </p>
+              </div>
+            </div>
+
+
+
+           <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
+             <div class="w3-half">
+                 <p>
+                   <strong style="font-size: 25px">Other</strong><br>
+                 </p>
+             </div>
+              <div class="w3-half">
+                <p style="font-size: 20px">
+                  Foreign languages: French and Spanish<br>
+                  Digital art and design: Blender
+                </p>
+              </div>
+            </div>
 
   <br><br><br>
   </div>
@@ -158,132 +243,71 @@ I delivered projects for a broad range of clients, including the Department for 
 
   <!-- Programming Section -->
 
-  <div class="w3-black" id="programming">
+  <div class="w3-black w3-padding-16" id="programming">
     <div class="w3-container w3-content w3-center">
     <h2 class="w3-wide w3-padding-32">programming</h2>
-    <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
-       <div class="w3-third">
-         <p><strong style="font-size: 24px">Look At The Pictures EP</strong></p>
-         <img src="img/latp.jpg" class="w3-round-large" alt="Look At The Pictures" style="width:70%">
-         <i class="fa fa-java w3-hover-opacity"></i>
-       </div>
-       <div class="w3-twothird">
-         <p>
+    <p>
+    I have experience of Python software development, Bash scripting, MySQL, Linux and AWS, along with extensive experience of data analysis in Python, R, and Excel.
+    I'm interested in process automation, and I enjoy discovering, implementing and building upon open-source technologies to find novel ways to get things done.<br><br>
+    I love exploring different software libraries, and pick up new skills very quickly (documentation is a programmer's best friend!).<br><br>
+    I have experience of collaborative software development, Agile principles and methods (Scrum and Kanban), version control (Git) and a high-level understanding of DevOps, continuous integration and deployment.<br>
+    <br>
+    In my free time I constantly strive to learn new programming skills - check out my <strong><a href="https://github.com/jwlibre">GitHub</a></strong> page to take a look at various examples of projects that I'm working on at the moment.
+    </p>
+    <br>
+    <br>
 
- "One of the strongest, most accomplished, and perhaps more importantly FUN punk EP's I've heard in a long time.I'd be surprised if this year's top 10 has more than 9 spaces left by the time we get around to writing it up in December - this will be difficult to beat..." <br>
- <a href="https://www.headlightsandwhitelines.com/single-post/2019/01/26/Review-Cueclich%C3%A9---Look-At-The-Pictures" target="_blank" class="w3-hover-opacity" style="text-decoration: none">
- <strong>Headlights and White Lines</strong></a><br><br>
-
-         </p>
-       </div>
-     </div>
-     <div class="w3-row" style="padding-top:16px; padding-bottom:64px">
-       <div class="w3-third">
-         <p><strong style="font-size: 24px">One Last Chance EP</strong></p>
-         <img src="img/olc.jpg" class="w3-round-large w3-margin-bottom" alt="One Last Chance" style="width:70%">
-       </div>
-       <div class="w3-twothird">
-         <p>
- "Sounding huge and alive, <i>One Last Chance</i> is packed with compelling music, combusting with vitality and passion" <br>
- <a href="https://alternativetracks.com/cuecliche-one-last-chance/" target="_blank" class="w3-hover-opacity" style="text-decoration: none">
- <strong>Alternativetracks</strong></a><br><br>
-         </p>
-       </div>
-     </div>
-     <div class="w3-row" style="padding-top:16px; padding-bottom:64px">
-       <div class="w3-third">
-         <p><strong style="font-size: 24px">Live Shows</strong></p>
-         <img src="img/live_icon.JPG" class="w3-round-large w3-margin-bottom" alt="microphone" style="width:70%">
-       </div>
-       <div class="w3-twothird">
-         <p>
- "Cuecliché [...] delivered an impressive set of upbeat energetic pop punk with a rather incredible cover of <i>The Bad Touch</i>" <br>
- <a href="https://midlandsmetalheads.com/cenfora-november-plot-trees-and-queens-cuecliche/" target="_blank" class="w3-hover-opacity" style="text-decoration: none">
- <strong>Midlands Metal Heads</strong></a><br><br>
-         </p>
-       </div>
-     </div>
   </div>
   </div>
 
-  <!-- Music Section -->
-<div class="w3-white" id="music">
+  <!-- Data Science Section -->
+<div class="w3-white" id="datascience">
   <div class="w3-container w3-content w3-padding-32 w3-center" style="max-width:800px">
-    <h2 class="w3-wide w3-padding-32">music</h2>
-    <div class="w3-row" style="padding-bottom: 32px">
-      <div class="w3-half">
-    <iframe width="290" height="240" src="https://www.youtube.com/embed/-bH8xYaSXfI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="w3-half">
-    <iframe width="290" height="240" src="https://www.youtube.com/embed/V8gm6uD-3eM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+    <h2 class="w3-wide w3-padding-32">data science</h2>
+    I recently completed the Machine Learning course provided by Stanford University via Coursera, providing me with a broad understanding of various machine learning algorithms and the finer details of their implementation
+    (model selection, parameter tuning, error analysis, precision vs recall, and so on).<br><br>
+    I am currently studying MIT's Introduction to Deep Learning, to further develop my understanding of neural networks, their potential applications, and how they can be implemented in Python using TensorFlow.<br><br>
+    My aim is to learn how to apply machine learning techniques effectively towards sustainable development goals. I am inspired by the trememndous work already being carried out in the field of Computational Sustainability, and I hope to be making contributions to this field once I am up to speed.<br><br>
+    Take a look at my <strong><a href="https://github.com/jwlibre">GitHub</a></strong> page to check out my ongoing data science projects!
     </div>
   </div>
-
-  <div class="w3-container w3-content w3-padding-64 w3-center" style="max-width:800px">
-    <div class="w3-padding-32">
-      <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/338043986&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/silentfiascoband" title="Silent Fiasco" target="_blank" style="color: #cccccc; text-decoration: none;">Silent Fiasco</a> · <a href="https://soundcloud.com/silentfiascoband/sets/silent-fiasco-ep" title="Silent Fiasco EP" target="_blank" style="color: #cccccc; text-decoration: none;">Silent Fiasco EP</a></div>
 </div>
-</div>
+<br>
+<br>
 
 
 
 
-    <!-- Gallery Section for 3D Art-->
+    <!-- Gallery Section for digital art-->
 
 <!-- Slideshow container -->
 
-  <div class="w3-black" id="3d art">
-    <div class="w3-container w3-content w3-padding-32" style="max-width:800px">
-      <h2 class="w3-wide w3-center w3-padding-32">3d art</h2>
-	<div class="slideshow-container">
+  <div class="w3-black" id="3dart">
+    <div class="w3-container w3-content w3-padding-32" style="max-width:900px">
+      <h2 class="w3-wide w3-center w3-padding-32">digital art</h2>
+	     <div class="slideshow-container">
 
   <!-- images with number and caption text -->
     <div class="gPics w3-center">
-      <img src="img/3d_art/mug.png" style="width:100%">
+      <img src="img/3d_art/hq1.png" style="width:100%">
     </div>
 
     <div class="gPics w3-center">
-      <img src="img/3d_art/stage1.png" style="width:100%">
-    </div>
-
-    <div class="gPics w3-center">
-      <img src="img/3d_art/stage2.png" style="width:100%">
-    </div>
-
-    <div class="gPics w3-center">
-      <img src="img/3d_art/stage3.png" style="width:100%">
+      <img src="img/3d_art/ferrari1.png" style="width:100%">
     </div>
 
     <div class="gPics w3-center">
       <img src="img/3d_art/stage4.png" style="width:100%">
     </div>
 
-  <div class="gPics fade w3-center">
-    <img src="img/infinity_tour.jpg" style="width:60%">
-    <div class="text">img6</div>
-  </div>
+    <div class="gPics w3-center">
+      <img src="img/3d_art/mug.png" style="width:100%">
+    </div>
 
-  <div class="gPics fade w3-center">
-    <img src="img/promo4.png" style="width:60%">
-    <div class="text">img7</div>
-  </div>
+    <div class="gPics w3-center">
+      <img src="img/3d_art/wip2.png" style="width:100%">
+    </div>
 
-  <div class="gPics fade w3-center">
-    <img src="img/70.jpg" style="width:100%">
-    <div class="text">img8</div>
-  </div>
-
-
-  <div class="gPics fade w3-center">
-    <img src="img/77.jpg" style="width:100%">
-    <div class="text">img9</div>
-  </div>
-
-  <div class="gPics fade w3-center">
-    <img src="img/leicester.jpg" style="width:100%">
-    <div class="text">img10</div>
-  </div>
 
 
   <!-- Next and previous buttons -->
@@ -299,11 +323,6 @@ I delivered projects for a broad range of clients, including the Department for 
   <span class="dot" onclick="currentSlide(3)"></span>
   <span class="dot" onclick="currentSlide(4)"></span>
   <span class="dot" onclick="currentSlide(5)"></span>
-  <span class="dot" onclick="currentSlide(6)"></span>
-  <span class="dot" onclick="currentSlide(7)"></span>
-  <span class="dot" onclick="currentSlide(8)"></span>
-  <span class="dot" onclick="currentSlide(9)"></span>
-  <span class="dot" onclick="currentSlide(10)"></span>
 </div>
 
 </div>
@@ -315,10 +334,20 @@ I delivered projects for a broad range of clients, including the Department for 
   <div class="w3-white" id="contact">
   <div class="w3-container w3-content w3-padding-32" style="max-width:800px">
     <h2 class="w3-wide w3-center">contact</h2>
-    <p class="w3-center">I'm always keen to hear about new projects and opportunities for collaboration.<br>
-      I love working with inspirational people who are looking to make a positive impact on society.<br>
-      Whether you're looking for a Python programmer, data analyst, 3D designer or a session drummer,<br>
-      or just want to chat technology, creativity and innovation, I'd be thrilled to hear from you!</p>
+
+    <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
+      <div class="w3-quarter">
+          <img src="img/profile2020_3.JPG" style="width:60%" class="rounded-circle">
+      </div>
+       <div class="w3-threequarter">
+         <p class="w3-left">I'm always keen to hear about new projects and opportunities for collaboration.
+           I love working with inspirational people who are looking to make a positive impact on society.
+           Whether you're looking for a Python programmer, data analyst, 3D designer or a session drummer,
+           or just want to chat technology, creativity and innovation, I'd be thrilled to hear from you!
+       </div>
+     </div>
+
+
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
         <i class="fa fa-map-marker" style="width:30px"></i> London, UK<br>
@@ -356,21 +385,21 @@ I delivered projects for a broad range of clients, including the Department for 
 </footer>
 
 <script>
-// Automatic Slideshow
-var myIndex = 0;
-carousel();
+// // Automatic Slideshow
+// var myIndex = 0;
+// carousel();
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 10000);
-}
+// function carousel() {
+//   var i;
+//   var x = document.getElementsByClassName("mySlides");
+//   for (i = 0; i < x.length; i++) {
+//     x[i].style.display = "none";
+//   }
+//   myIndex++;
+//   if (myIndex > x.length) {myIndex = 1}
+//   x[myIndex-1].style.display = "block";
+//   setTimeout(carousel, 10000);
+// }
 
 
 // Manual slideshow in the Gallery section
@@ -402,9 +431,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-function gallery(){
 
-}
 
 
 
