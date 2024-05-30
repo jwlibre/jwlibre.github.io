@@ -21,9 +21,9 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">about</a>
     <a href="#resume" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">resumé</a>
-    <a href="#programming" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">programming</a>
-    <a href="#datascience" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">data science</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">portfolio</a>
     <a href="#3dart" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">digital art</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">contact</a>
 
@@ -44,9 +44,9 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top" style="margin-top:46px">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">about</a>
   <a href="#resume" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">resumé</a>
-  <a href="#programming" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">programming</a>
-  <a href="#datascience" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">data science</a>
+  <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">portfolio</a>
   <a href="#3dart" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">digital art</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">contact</a>
 </div>
@@ -57,40 +57,47 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
   <!-- Video/still -->
   <!-- small/med screens -->
   <div class="w3-hide-large">
-  <video poster="img/3d_art/turbine1.png" style="width:100%" autoplay muted loop>
+  <img src="img/3d_art/stage1.png" style="width:100%"></img>
+  <!-- <video poster="img/3d_art/turbine1.png" style="width:100%" autoplay muted loop>
     <source src="vid/turbine_lq.mp4" type="video/mp4">
-    </video>
+  </video> -->
   </div>
 
   <!-- large screens -->
   <div class="w3-display-container w3-center w3-hide-small w3-hide-medium">
-    <video poster="img/3d_art/turbine1.png" style="width:100%; height: 600px; object-fit: cover; object-position: 30%;" autoplay muted loop>
+    <!-- <video poster="img/3d_art/turbine1.png" style="width:100%; height: 600px; object-fit: cover; object-position: 30%;" autoplay muted loop>
       <source src="vid/turbine_lq.mp4" type="video/mp4">
-      </video>
+    </video>
     <div class="w3-display-bottomright w3-container w3-text-white w3-padding-8 w3-hide-small">
     <p style="font-size: 10px;"><i>Designed, animated and rendered in Blender 2.8</i></p>
-    </div>
+    </div> -->
+    <img src="img/3d_art/stage1.png" style="width:100%; height: 600px; object-fit: cover; object-position: 30%;"></img>
   </div>
 
-  <div class="w3-container w3-padding-16 w3-center w3-opacity w3-xxxlarge">
-  <a href="https://www.linkedin.com/in/jeremy-libre-8a682a84/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-  <a href="https://www.instagram.com/jwlibre" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-  <a href="https://github.com/jwlibre" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
-  <a href="https://www.youtube.com/channel/UCW_5ddohsesc1nyMqU73Htg" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
-  </div>
-
-  <!-- About Section -->
-  <div class="w3-container w3-content w3-center" style="max-width:800px" id="about">
-
-    <strong class="w3-center" style="font-size: 18px">I am a programmer, physics graduate, digital artist, and all-round tech enthusiast.</strong><br>
+  <!-- about section-->
+  <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="about">
+    <br>
+    <strong class="w3-center" style="font-size: 18px">I am a programmer, physics graduate, musician and creative technologist.</strong><br>
     <p class="w3-center">
-      I am passionate about technology and its potential to drive positive changes in society; I believe that through the conscientous development of technology we can create a fairer and more sustainable society for all.<br><br>
-      I have a passion for creative, technical problem-solving and process automation, and am actively seeking a role which will allow me to apply my skills in programming, computing and data analysis to effect positive changes in society.<br>
+      <br>
+      I'm a bilingual (English/French) software developer with several years of<br> international experience in Python development and consultancy.
+      <br><br>
+      I have professional experience in backend Python development, process automation,<br> Bash scripting, and data analysis in Python, R, MySQL and Excel, across a variety of sectors.
+      <br><br>
+      In my free time, I enjoy performing music and exploring technological applications to the arts,<br>with a passion for 3D modelling, digital art, immersive web development and lighting design.
     </p>
   </div>
 
+  <div class="w3-container w3-center w3-opacity w3-xxxlarge">
+    <a href="https://www.linkedin.com/in/jeremy-libre-8a682a84/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/jwlibre" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://github.com/jwlibre" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://www.youtube.com/channel/UCW_5ddohsesc1nyMqU73Htg" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+  </div>
+
   <!-- Resume section -->
-  <div class="w3-white w3-container w3-content w3-center" style="max-width:1000px; vertical-align:middle" id="resume">
+  <div class="w3-black">
+  <div class="w3-container w3-content w3-center" style="max-width:1000px; vertical-align:middle" id="resume">
    <h2 class="w3-wide" style="padding-top:32px; padding-bottom:16px">resumé</h2>
    <h3 class="w3-wide" style="padding-top:16px; padding-bottom:16px">- professional experience -</h3>
 
@@ -102,8 +109,12 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
         </p>
     </div>
      <div class="w3-half w3-left">
-       <p class="w3-left" style="font-size: 17px">
-        Asynchronous Python code development and testing for software running on battery cycling systems.
+       <p style="font-size: 17px; text-align: left;">
+          Developed and implemented mathematical ageing models into backend Python code, to predict ageing and facilitate preventative maintenance of industrial electronics assets.<br>
+          Developed automated frontend (Cypress) and backend (Pytest) tests to maintain code quality standards.<br>
+          Introduced new standards of ticket writing and management to improve the efficiency, robustness and traceability of work accomplished.<br>
+          Introduced new frontend functionality using PyQt.<br>
+          Mentored junior team members on Git best practices in branched workflows.
        </p>
      </div>
    </div>
@@ -116,9 +127,8 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
            </p>
        </div>
         <div class="w3-half w3-left">
-          <p class="w3-left" style="font-size: 17px">
-            Toolset development in Bash and Python.<br>
-            Process automation supporting intelligence gathering and system integration.<br>
+          <p class="w3-left" style="font-size: 17px; text-align: left;">
+            Automated the collection of cyber threat intelligence by developing tools in Bash and Python, deployed on an AWS server.
           </p>
         </div>
       </div>
@@ -131,8 +141,8 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
             </p>
         </div>
          <div class="w3-half">
-           <p style="font-size: 17px">
-             Backend development incorporating Python and MySQL.
+           <p style="font-size: 17px; text-align: left;">
+            Wrote and implemented SQL queries within a Python framework to identify suspicious behaviour in network traffic.
            </p>
          </div>
        </div>
@@ -145,9 +155,10 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
              </p>
          </div>
           <div class="w3-half">
-            <p style="font-size: 17px">
-              Large-scale data analysis, process automation using R and Python.<br>
-              Backend and frontend Python development using Tkinter, Matplotlib, pandas.
+            <p style="font-size: 17px; text-align: left;">
+              Developed a crowd dynamics simulator for the Greater London Authority, providing event planners with valuable insight to manage crowds and improve security during the funeral of Queen Elizabeth II.<br>
+              Developed an analytical tool for the Department for Transport to inform decision-making and guide investments in accessible facilities at UK railway stations.<br>
+              Automated internal data analysis processes using R and Python, improving efficiency, reproducibility and robustness of analysis.
             </p>
           </div>
         </div>
@@ -161,8 +172,9 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
               </p>
           </div>
            <div class="w3-half">
-             <p style="font-size: 17px">
-              Diagnosing problems and implementing fixes in C source code and bash scripts.
+             <p style="font-size: 17px; text-align: left;">
+              Diagnosed problems and implemented bug fixes in C code and Bash scripts, by reviewing test results, collaborating with testers, and investigating the relevant source code.<br>
+              Organized and ran an educational outreach event, as part of a team, for local schools to promote diversity and inclusion in the technology sector, encouraging women to pursue careers in STEM.
              </p>
            </div>
          </div>
@@ -205,7 +217,7 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
           </div>
            <div class="w3-half">
              <p style="font-size: 20px">
-               Docker, Git, GitHub
+               Docker, Git, GitHub, GitLab, Jira
              </p>
            </div>
          </div>
@@ -218,7 +230,7 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
            </div>
             <div class="w3-half">
               <p style="font-size: 20px">
-                pandas, NumPy, scikit-learn, matplotlib, Flask, Django
+                pandas, NumPy, matplotlib, Flask, Django
               </p>
             </div>
           </div>
@@ -239,7 +251,7 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
            <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
              <div class="w3-half">
                  <p>
-                   <strong style="font-size: 25px">Software</strong><br>
+                   <strong style="font-size: 25px">Operating Systems</strong><br>
                  </p>
              </div>
               <div class="w3-half">
@@ -254,56 +266,88 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
            <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
              <div class="w3-half">
                  <p>
-                   <strong style="font-size: 25px">Other</strong><br>
+                   <strong style="font-size: 25px">Languages</strong><br>
                  </p>
              </div>
               <div class="w3-half">
                 <p style="font-size: 20px">
-                  Foreign languages: French and Spanish<br>
-                  Digital art and design: Blender, three.js
+                  English (native), French (fluent)<br>
                 </p>
               </div>
             </div>
+            <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
+              <div class="w3-half">
+                  <p>
+                    <strong style="font-size: 25px">3D</strong><br>
+                  </p>
+              </div>
+               <div class="w3-half">
+                 <p style="font-size: 20px">
+                  Blender, Unreal Engine, three.js
+                </p>
+               </div>
+             </div>
+          </div>
 
   <br><br><br>
   </div>
+<br>
+<br>
 
-
-
-  <!-- Programming Section -->
-
-  <div class="w3-black w3-padding-16" id="programming">
-    <div class="w3-container w3-content w3-center">
-    <h2 class="w3-wide w3-padding-32">programming</h2>
-    <p>
-    I have experience of Python software development, Bash scripting, MySQL, Linux and AWS, along with extensive experience of data analysis in Python, R, and Excel.
-    I'm interested in process automation, and I enjoy discovering, implementing and building upon open-source technologies to find novel ways to get things done.<br><br>
-    I love exploring different software libraries, and pick up new skills very quickly (documentation is a programmer's best friend!).<br><br>
-    I have experience of collaborative software development, Agile principles and methods (Scrum and Kanban), version control (Git) and a high-level understanding of DevOps, continuous integration and deployment.<br>
-    <br>
-    In my free time I constantly strive to learn new programming skills - check out my <strong><a href="https://github.com/jwlibre">GitHub</a></strong> page to take a look at various examples of projects that I'm working on at the moment.
-    </p>
-    <br>
-    <br>
-
-  </div>
-  </div>
-
-  <!-- Data Science Section -->
-<div class="w3-white" id="datascience">
+  <!-- Portfolio -->
+<div class="w3-white w3-container w3-content w3-center" style="max-width:1000px; vertical-align:middle" id="portfolio">
   <div class="w3-container w3-content w3-padding-32 w3-center" style="max-width:800px">
-    <h2 class="w3-wide w3-padding-32">data science</h2>
-    I recently completed the Machine Learning course provided by Stanford University via Coursera, providing me with a broad understanding of various machine learning algorithms and the finer details of their implementation
-    (model selection, parameter tuning, error analysis, precision vs recall, and so on).<br><br>
-    I am currently studying MIT's Introduction to Deep Learning, to further develop my understanding of neural networks, their potential applications, and how they can be implemented in Python using TensorFlow.<br><br>
-    My aim is to learn how to apply machine learning techniques effectively towards sustainable development goals. I am inspired by the trememndous work already being carried out in the field of Computational Sustainability, and I hope to be making contributions to this field once I am up to speed.<br><br>
-    Take a look at my <strong><a href="https://github.com/jwlibre">GitHub</a></strong> page to check out my ongoing data science projects!
+    <h2 class="w3-wide w3-padding-32">portfolio</h2>
+    <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
+      <div class="w3-half">
+        <p>
+          <img src="img/3d_art/gig_simulator_1.png" style="width:90%">
+        </p>
+      </div>
+      <div class="w3-half w3-left">
+        <strong style="font-size: 25px">Gig Simulator</strong><br>
+        <strong style="font-size: 18px">Light show visualizer</strong>
+          <p class="w3-center" style="font-size: 17px">
+            The Gig Simulator is a prototype real-time light show visualizer, leveraging Unreal Engine's DMX plugin. In my setup, DMX input is sourced from open-source lighting control software QLC+, which permits full real-time control of the scene's virtual lighting fixtures. Lighting scenes and functions, as well as individual DMX values, can be controlled using external MIDI controllers.
+            Character models and animations courtesy of Mixamo. Stage structure assets and equipment modelled myself in Blender, musical instruments sourced from Twinmotion.
+          </p>
+      </div>
+    </div>
+    <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
+      <div class="w3-half">
+        <p>
+          <img src="img/3d_art/round_island_1.png" style="width:90%">
+        </p>
+      </div>
+      <div class="w3-half w3-left">
+        <strong style="font-size: 25px">Round Island</strong><br>
+        <strong style="font-size: 18px">Third-person tropical island exploration</strong>
+          <p class="w3-center" style="font-size: 17px">
+            Round Island is a third-person open-world demo built in Unreal Engine 5, allowing the user to explore a virtual tropical island resort.
+            Island topography modelled using real-life geospatial data, and many features including buildings, beaches, rocks and forests were reconstructed from reference photographs.
+            In undertaking this project I gained a broad understanding of Unreal Engine's capabilities, from level design (including modelling and foliage tools), to Sequencer and Movie Render Queue.
+            I also gained valuable hands-on experience with skeletal meshes, animations, and animation retargeting.
+            Buildings modelled myself in Blender.
+            Animations sourced from Mixamo, Deepmotion and additional free-to-use asset packs. Other assets and props sourced from various free-to-use content packs including Twinmotion and Quixel Megascans, as well as community assets from Sketchfab.
+          </p>
+      </div>
+    </div>
+    <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
+      <div class="w3-half">
+        <p>
+          <img src="img/3d_art/website.png" style="width:90%">
+        </p>
+      </div>
+      <div class="w3-half w3-left">
+        <strong style="font-size: 25px">Personal website</strong><br>
+        <strong style="font-size: 18px">Interactive 3D website using three.js</strong>
+          <p class="w3-center" style="font-size: 17px">
+          My personal 3D portfolio website showcasing my creative projects. Check it out at <strong><a target="_blank" href="https://jwlibre.github.io/portfolio">jwlibre.github.io/portfolio</a></strong>
+          </p>
+      </div>
     </div>
   </div>
 </div>
-<br>
-<br>
-
 
 
 
@@ -387,7 +431,7 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
 
     <div class="w3-row" style="padding-top:16px; padding-bottom:16px">
       <div class="w3-quarter">
-          <img src="img/profile2020_3.JPG" style="width:60%" class="rounded-circle">
+          <img src="img/profile_2024_crop.jpg" style="width:60%">
       </div>
        <div class="w3-threequarter">
          <p class="w3-left">I'm always keen to hear about new projects and opportunities for collaboration.
@@ -400,7 +444,7 @@ h2 {font-family: "Rubik", sans-serif; font-size: 40px}
 
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> Grenoble, FR<br>
+        <i class="fa fa-map-marker" style="width:30px"></i> Toronto, ON<br>
         <i class="fa fa-envelope" style="width:30px"> </i> jw.libre@hotmail.com<br>
 
       </div>
