@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Jeremy Libre</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="css/css.css">
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Arimo|Rubik&display=swap" rel="stylesheet">
+<script type="text/javascript" src="include.js"></script>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-large w3-right" href="javascript:void(0)"
+                onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large">home</a>
+            <a href="#resume" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">resumé</a>
+            <a href="https://jwlibre.github.io/portfolio" target="_blank"
+                class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">portfolio</a>
+            <a href="art.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">digital
+                art</a>
+            <a href="blog.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">blog</a>
+            <a href="contact.html"
+                class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">contact</a>
+
+            <div class="w3-bar-item w3-right w3-padding-large">Jeremy Libre</div>
+
+        </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top" style="margin-top:46px">
+        <a href="#resume" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">resumé</a>
+        <a href="https://jwlibre.github.io/portfolio" target="_blank" class="w3-bar-item w3-button w3-padding-large"
+            onclick="myFunction()">portfolio</a>
+        <a href="art.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">digital art</a>
+        <a href="blog.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">blog</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">contact</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+        <div class="w3-white w3-container w3-content w3-center" style="max-width:1000px; vertical-align:middle"
+            id="blog">
+            <div class="w3-container w3-content w3-padding-32 w3-center" style="max-width:800px">
+                <h2 class="w3-wide w3-padding-32">blog</h2>
+
+                <!-- CARD - copy/paste and adapt for each post -->
+                <div class="w3-row w3-center" style="padding-top:16px; padding-bottom:16px">
+                    <a class="card" href="index.html">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">07/12/2024</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the
+                                card's content.</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Tags here</li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+                <!-- END CARD -->
+
+            </div>
+        </div>
+    </div>
